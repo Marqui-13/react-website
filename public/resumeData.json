@@ -1,0 +1,149 @@
+{
+    "main": {
+      "name": "Marqui Orr",
+      "occupation": "Developer",
+      "description": "Community",
+      "image": "profilepic.jpg",
+      "bio": "Hello! I am Marqui! I've been coding for around 5 years and enjoy learning new technologies and their potential impact on our world and its people. I am passionate about blockchain technology and decentralization in general and believe it will help to better many current socio-economic systems. I am also passionate about uplifting others and helping them achieve their dreams as a developer. I started out coding basic websites in HTML/CSS then I picked up JavaScript and have been using React and Next as a framework for building mobile-first responsive web/mobile applications. While I'm not coding/studying, I like to play basketball, read/research, lift weights, and listen to music.",
+      "contactmessage": "Get in contact with me!",
+      "email": "marquiorr123@gmail.com",
+      "phone": "+44 1234567899",
+      "address": {
+        "street": "123 Dev Lane",
+        "city": "Iowa",
+        "state": "Devosphere",
+        "zip": "W3B D3V"
+      },
+      "website": "marqui-website.netlify.app", 
+      "resumedownload": "https://marqui-resume.on.fleek.co/",
+      "social": [
+        {
+          "name": "codepen",
+          "url": "https://codepen.io/marqui-13",
+          "className": "fa fa-code"
+        },
+        {
+          "name": "linkedin",
+          "url": "https://www.linkedin.com/in/marqui-orr-793115219/",
+          "className": "fa fa-linkedin"
+        },
+        {
+          "name": "github",
+          "url": "https://github.com/Marqui-13",
+          "className": "fa fa-github"
+        }
+      ]
+    },
+    "resume": {
+      "skillmessage": "My Programming Language Proficiency",
+      "education": [
+        {
+          "school": "Hawkeye Community College - US",
+          "degree": "Associates Degree, Web Programming & Development",
+          "graduated": "",
+          "description": "Currently attending"
+        },
+        {
+          "school": "Moralis Academy - Web",
+          "degree": "Certfied Moralis Blockchain Developer",
+          "graduated": "",
+          "description": "Currently attending"
+        }
+      ],
+      "work": [
+        {
+          "company": "McDonalds",
+          "title": "",
+          "years": "July 2021 - November 2021",
+          "description": "Left due to work environment and management"
+        },
+        {
+          "company": "Hill Street News & Tobacco",
+          "title": "",
+          "years": "June 2022 - July 2022",
+          "description": "Left due to work environment and management"
+        }
+      ],
+      "skills": [
+        {
+          "name": "HTML5",
+          "level": "100%"
+        },
+        {
+          "name": "CSS3/Tailwind CSS",
+          "level": "100%"
+        },
+        {
+          "name": "JavaScript",
+          "level": "85%"
+        },
+        {
+          "name": "Three JS",
+          "level": "65%"
+        },
+        {
+          "name": "React JS/Native",
+          "level": "80%"
+        },
+        {
+          "name": "Next JS",
+          "level": "80%"
+        },
+        {
+          "name": "Vyper",
+          "level": "40%"
+        },
+        {
+          "name": "Solidity",
+          "level": "70%"
+        },
+        {
+          "name": "Moralis",
+          "level": "40%"
+        },
+        {
+          "name": "Git/GitHub",
+          "level": "70%"
+        },
+        {
+          "name": "Web Development",
+          "level": "95%"
+        }
+      ]
+    },
+    "portfolio": {
+      "projects": [
+        {
+          "title": "CoinSearch",
+          "category": "",
+          "image": "coinsearch.png",
+          "url": "https://react-coin-search.on.fleek.co/"
+        },
+        {
+          "title": "Landing Page 1: LP",
+          "category": "",
+          "image": "lp1.png",
+          "url": "https://lp-landing-page.on.fleek.co/"
+        },
+        {
+          "title": "Landing Page 2: DeFi + Moralis Metamask Auth",
+          "category": "",
+          "image": "defi.png",
+          "url": "https://react-defi-app.netlify.app/"
+        },
+        {
+          "title": "Weather App",
+          "category": "",
+          "image": "weather.png",
+          "url": "https://react-weather-app.on.fleek.co/"
+        },
+        {
+          "title": "Powerlist: To-Do App",
+          "category": "",
+          "image": "powerlist.PNG",
+          "url": "https://react-powerlist.on.fleek.co/"
+        }
+      ]
+    }
+  }
+  
