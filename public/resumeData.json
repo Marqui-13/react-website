@@ -3,10 +3,10 @@
       "name": "Marqui Orr",
       "occupation": "Developer",
       "description": "",
-      "image": "profilepic.jpg",
+      "image": "profile.png",
       "bio": "Hello! I am Marqui! I've been coding for around 5 years and enjoy learning new technologies and their potential impact on our world and its people. I am passionate about blockchain technology and decentralization in general and believe it will help to better many current socio-economic systems. I am also passionate about uplifting others and helping them achieve their dreams as a developer. I started out coding basic websites in HTML/CSS then I picked up JavaScript and have been using React and Next as a framework for building mobile-first responsive web/mobile applications. While I'm not coding/studying, I like to play basketball, read/research, lift weights, and listen to music.",
       "contactmessage": "Get in contact with me!",
-      "email": "marquiorr123@gmail.com",
+      "email": "threeee@skiff.com",
       "phone": "+44 1234567899",
       "address": {
         "street": "123 Dev Lane",
@@ -14,12 +14,12 @@
         "state": "Devosphere",
         "zip": "W3B D3V"
       },
-      "website": "marqui-website.netlify.app", 
+      "website": "https://marqui-website.on.fleek.co/", 
       "resumedownload": "https://marqui-resume.on.fleek.co/",
       "social": [
         {
           "name": "codepen",
-          "url": "https://codepen.io/marqui-13",
+          "url": "https://codepen.io/marqui-13/",
           "className": "fa fa-code"
         },
         {
@@ -29,7 +29,7 @@
         },
         {
           "name": "github",
-          "url": "https://github.com/Marqui-13",
+          "url": "https://github.com/Marqui-13/",
           "className": "fa fa-github"
         }
       ]
