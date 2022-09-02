@@ -20,7 +20,7 @@ const About = ({ data }) => {
         <div className="three columns">
           <img
             className="profile-pic"
-            src="../../public/images/profilepic.jpg"
+            src="./profilepic.jpg"
             alt="Marqui's Profile Pic"
           />
         </div>
