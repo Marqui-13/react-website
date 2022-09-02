@@ -1,5 +1,5 @@
 import React from "react";
-import profilepic from "../../public/images/profilepic.jpg";
+//import profilepic from "../../public/images/profilepic.jpg";
 
 const About = ({ data }) => {
   if (data) {
@@ -20,7 +20,7 @@ const About = ({ data }) => {
         <div className="three columns">
           <img
             className="profile-pic"
-            src={profilepic}
+            src="../../public/images/profilepic.jpg"
             alt="Marqui's Profile Pic"
           />
         </div>
@@ -48,7 +48,7 @@ const About = ({ data }) => {
             <div className="columns download">
               <p>
                 <a href={resumeDownload} className="button download">
-                  <i className="fa fa-download"></i>Download Resume
+                  <i className="fa fa-download"></i>Download Resumeeeee
                 </a>
               </p>
             </div>
