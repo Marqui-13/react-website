@@ -1,10 +1,10 @@
 import React from "react";
-//import profilepic from "../../public/images/profilepic.jpg";
+import profilepic from "../Components/profilepic.jpg";
 
 const About = ({ data }) => {
   if (data) {
     var name = data.name;
-    var profilepic = "images/" + data.image;
+    
     var bio = data.bio;
     var street = data.address.street;
     var city = data.address.city;
