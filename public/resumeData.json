@@ -1,56 +1,22 @@
 {
     "main": {
       "name": "Marqui Orr",
-<<<<<<< HEAD
-=======
-      "occupation": "Developer",
-      "description": "",
->>>>>>> 3b7acd51b58cf93e581e082bd4774b28af4ba9d7
       "image": "profilepic.jpg",
       "bio": "I started out coding simple websites in HTML and CSS, then I picked up JavaScript and have been using a variety of frameworks for building fast, mobile-first, and responsive web/mobile applications. I am also passionate about blockchain technology and decentralization and really like the suite of tools that enable developers to host fast, modern, and censorship-proof sites/apps on the open web. I've been coding for around 5 years and enjoy learning new technologies and their potential impact on our world and its people. While I'm not coding/studying, I like to read/research, lift weights, and listen to music.",
       "contactmessage": "Get in contact with me!",
       "email": "threeee@skiff.com",
-<<<<<<< HEAD
       "phone": "+44 1234567899",
-=======
-      "phone": "+44 1234567898",
->>>>>>> 3b7acd51b58cf93e581e082bd4774b28af4ba9d7
       "address": {
         "street": "123 Dev Lane",
         "state": "Devosphere",
         "zip": "51741"
       },
-<<<<<<< HEAD
       "website": "marqui-website.on.fleek.co", 
       "social": [
         {
           "name": "",
           "url": "",
           "icon": ""
-=======
-      "website": "https://marqui-website.on.fleek.co/", 
-      "resumedownload": "https://marqui-resume.on.fleek.co/",
-      "social": [
-        {
-          "name": "codepen",
-          "url": "https://codepen.io/marqui-13/",
-          "className": "fa fa-code"
-        },
-        {
-          "name": "linkedin",
-          "url": "https://www.linkedin.com/in/marqui-orr-793115219/",
-          "className": "fa fa-linkedin"
-        },
-        {
-          "name": "github",
-          "url": "https://github.com/Marqui-13/",
-          "className": "fa fa-github"
-        },
-        {
-          "name": "radicle",
-          "url": "https://app.radicle.xyz/",
-          "className": "fa fa-tree"
->>>>>>> 3b7acd51b58cf93e581e082bd4774b28af4ba9d7
         }
       ]
     },
@@ -64,8 +30,8 @@
           "description": "Currently attending"
         },
         {
-          "school": "Moralis Academy - Web3",
-          "degree": "Certified Moralis Blockchain Developer",
+          "school": "Moralis Academy - Web",
+          "degree": "Certfied Moralis Blockchain Developer",
           "graduated": "",
           "description": "Currently attending"
         }
@@ -86,11 +52,7 @@
         {
           "company": "Domino's",
           "title": "",
-<<<<<<< HEAD
           "years": "July 2022 - Aug 2022",
-=======
-          "years": "July 2022 - August 2022",
->>>>>>> 3b7acd51b58cf93e581e082bd4774b28af4ba9d7
           "description": "Left due to work environment"
         }
       ],
@@ -125,11 +87,11 @@
         },
         {
           "name": "Solidity",
-          "level": "85%"
+          "level": "70%"
         },
         {
           "name": "Moralis",
-          "level": "45%"
+          "level": "40%"
         },
         {
           "name": "Git/GitHub",
