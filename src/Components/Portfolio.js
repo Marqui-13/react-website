@@ -29,7 +29,11 @@ const Portfolio = ({ data }) => {
     <section id="portfolio">
       <div className="row">
         <div className="twelve columns collapsed">
+<<<<<<< HEAD
           <h1 className="portfolioHeading">Check Out Some of My Projects.</h1>
+=======
+          <h1>Some Things I've Built.</h1>
+>>>>>>> 3b7acd51b58cf93e581e082bd4774b28af4ba9d7
 
           <div
             id="portfolio-wrapper"

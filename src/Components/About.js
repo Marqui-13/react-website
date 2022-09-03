@@ -1,10 +1,11 @@
 import React from "react";
+import profilepic from "../Components/profilepic.jpg";
 
 
 const About = ({ data }) => {
   if (data) {
     var name = data.name;
-    var profilepic = "images/" + data.image;
+    
     var bio = data.bio;
     var street = data.address.street;
     var city = data.address.city;
@@ -45,6 +46,16 @@ const About = ({ data }) => {
                 <span>{email}</span>
               </p>
             </div>
+<<<<<<< HEAD
+=======
+            <div className="columns download">
+              <p>
+                <a href={resumeDownload} className="button download">
+                  <i className="fa fa-download"></i>Download Resumeeeee
+                </a>
+              </p>
+            </div>
+>>>>>>> 3b7acd51b58cf93e581e082bd4774b28af4ba9d7
           </div>
         </div>
       </div>
