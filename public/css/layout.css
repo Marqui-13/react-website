@@ -92,7 +92,7 @@ header .social {
 header .social li {
    display: inline-block;
    margin: 0 15px;
-   padding: 0;
+   padding: 20px;
 }
 
 .responsive-headline {
@@ -103,6 +103,10 @@ header .social li {
 
 .altweb a { color: #fff; font-weight: 300;}
 .altweb a:hover { color: #11ABB0; }
+
+.portfolioHeading { 
+   color: black;
+}
 
 .aboutd { color: #11ABB0; font-weight: 900;}
 
@@ -285,13 +289,16 @@ ul#nav li.current a { color: #11ABB0; }
 }
 #resume .info {
    font: 16px/24px 'librebaskerville-italic', serif;
-   color: #6E7881;
+   color: black;
    margin-bottom: 18px;
    margin-top: 9px;
 }
 #resume .info span {
    margin-right: 5px;
    margin-left: 5px;
+}
+#resume .des {
+   color: black;
 }
 #resume .date {
    font: 15px/24px 'opensans-regular', sans-serif;
@@ -321,7 +328,7 @@ ul#nav li.current a { color: #11ABB0; }
 }
 .bars li em {
 	font: 15px 'opensans-bold', sans-serif;
-   color: #313131;
+   color: black;
 	text-transform: uppercase;
    letter-spacing: 2px;
 	font-weight: normal;
@@ -335,7 +342,7 @@ ul#nav li.current a { color: #11ABB0; }
 
    margin: 0;
    padding-right: 24px;
-  	background: #313131;
+  	background: black;
    display: inline-block;
   	height: 42px;
    line-height: 42px;
@@ -444,7 +451,8 @@ ul#nav li.current a { color: #11ABB0; }
    letter-spacing: 1px;
    text-align: center;
    margin-bottom: 48px;
-   color: #95A3A3;
+   color: black;
+   font-weight: 900;
 }
 
 /* Portfolio Content */

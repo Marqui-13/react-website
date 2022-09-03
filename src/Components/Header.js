@@ -2,30 +2,56 @@ import { useEffect, useRef } from "react";
 import React from "react";
 import TypeWriter from "react-typewriter";
 import videoBg from "../assets/videoBg.mp4";
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faSeedling } from '@fortawesome/free-solid-svg-icons'
+import { faLinkedin, faGithub, faCodepen } from '@fortawesome/free-brands-svg-icons'
+
 //import {TweenMax, Power3} from "gsap"
-import gsap from "gsap"
+ //import gsap from "gsap"
 
-const Header = ({ data }) => {
-  const socialRef = useRef();
+const Header = ({ data, icon, timeline, ease }) => {
+  // let socialRef1 = useRef(null);
+  // let socialRef2 = useRef(null);
+  // let socialRef3 = useRef(null);
 
-  useEffect(() => {
-    gsap.to(socialRef.current, {
-      rotation: "+=0",
-    });
-  });
+
+  // useEffect(() => {
+  //   timeline.from([socialRef1, socialRef2, socialRef3], 2, {
+  //     opacity: 0,
+  //     y: 400,
+  //     stagger: {
+  //       amount: 0.4
+  //     },
+  //     ease: ease
+  //   });
+  // });
 
   if (data) {
     var name = data.name;
-    var occupation = data.occupation;
-    var description = data.description;
-    var city = data.address.city;
     var networks = data.social.map(function (network) {
       return (
-        <li key={network.name}>
-          <a href={network.url}>
-            <i className={network.className}></i>
+        <>
+        <li>
+          <a href="https://www.linkedin.com/in/marqui-orr-793115219/">
+            <FontAwesomeIcon icon={faLinkedin} />
           </a>
         </li>
+        <li>
+          <a href="https://github.com/Marqui-13/">
+            <FontAwesomeIcon icon={faGithub} />
+          </a>
+        </li>
+        <li>
+          <a href="https://app.radicle.xyz/">
+            <FontAwesomeIcon icon={faSeedling} />
+          </a>
+        </li>
+        <li>
+          <a href="https://codepen.io/marqui-13/">
+            <FontAwesomeIcon icon={faCodepen} />
+          </a>
+        </li>
+      </>
       );
     });
   }
@@ -41,10 +67,10 @@ const Header = ({ data }) => {
           <TypeWriter typing={0.37}>{name ? `I'm ${name}.` : null}</TypeWriter>
         </h1>
         <h4 className="aboutd">
-          I'm a developer and a student focusing on Web3, Blockchain, &amp;
+          I'm a developer and a student focusing on Web3, Blockchain, Creative Coding, &amp;
           Responsive Front-End/Back-End Development.
         </h4>
-        <ul className="social" ref={socialRef}>{networks}</ul>
+        <ul className="social">{networks}</ul>
         <h4 className="altweb">
           <a
             href="https://marqui-website-alternate.netlify.app/"

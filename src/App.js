@@ -6,6 +6,7 @@ import Resume from "./Components/Resume";
 import Contact from "./Components/Contact";
 import Portfolio from "./Components/Portfolio";
 import "./App.css";
+import { gsap, Power3 } from 'gsap';
 
 // add gsap animations to h3 in header section
 // add gsap animations to 'check out my website' text moving up to its current position 
@@ -19,6 +20,9 @@ import "./App.css";
 
 
 const App = () => {
+  let tl = new gsap.timeline();
+  let ease = Power3.easeOut();
+
   const [resumeData, setResumeData] = useState({});
 
   useEffect(() => {
@@ -31,7 +35,7 @@ const App = () => {
 
   return (
     <div className="App">
-      <Header data={resumeData.main} />
+      <Header timeline= {tl} ease= {ease} data={resumeData.main} />
       <About data={resumeData.main} />
       <Resume data={resumeData.resume} />
       <Portfolio data={resumeData.portfolio} />

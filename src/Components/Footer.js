@@ -1,14 +1,34 @@
 import React from "react";
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faSeedling } from '@fortawesome/free-solid-svg-icons'
+import { faLinkedin, faGithub, faCodepen } from '@fortawesome/free-brands-svg-icons'
 
 const Footer = ({ data }) => {
   if (data) {
     var networks = data.social.map(function (network) {
       return (
-        <li key={network.name}>
-          <a href={network.url}>
-            <i className={network.className}></i>
+       <>
+        <li>
+          <a href="https://www.linkedin.com/in/marqui-orr-793115219/">
+            <FontAwesomeIcon icon={faLinkedin} />
           </a>
         </li>
+        <li>
+          <a href="https://github.com/Marqui-13/">
+            <FontAwesomeIcon icon={faGithub} />
+          </a>
+        </li>
+        <li>
+          <a href="https://app.radicle.xyz/">
+            <FontAwesomeIcon icon={faSeedling} />
+          </a>
+        </li>
+        <li>
+          <a href="https://codepen.io/marqui-13/">
+            <FontAwesomeIcon icon={faCodepen} />
+          </a>
+        </li>
+       </>
       );
     });
   }

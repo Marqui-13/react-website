@@ -32,7 +32,7 @@ const Contact = ({ data }) => {
       <div className="row section-head">
         <div className="two columns header-col">
           <h1>
-            <span>Get In Touch.</span>
+            <span>Get In Contact.</span>
           </h1>
         </div>
 
@@ -127,7 +127,7 @@ const Contact = ({ data }) => {
               <br />
               <br />
               {street} <br />
-              {city}, {state} {zip}
+              {city} {state} {zip}
               <br />
               <span>{phone}</span>
             </p>
