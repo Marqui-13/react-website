@@ -11,7 +11,7 @@
         "state": "Devosphere",
         "zip": "51741"
       },
-      "website": "marqui-website.on.fleek.co", 
+      "website": "https://www.marqui-website.on.fleek.co/", 
       "social": [
         {
           "name": "",
@@ -31,7 +31,7 @@
         },
         {
           "school": "Moralis Academy - Web",
-          "degree": "Certfied Moralis Blockchain Developer",
+          "degree": "Certified Moralis Blockchain Developer",
           "graduated": "",
           "description": "Currently attending"
         }
@@ -109,31 +109,31 @@
           "title": "CoinSearch",
           "category": "",
           "image": "coinsearch.png",
-          "url": "https://react-coin-search.on.fleek.co/"
+          "url": "https://www.react-coin-search.on.fleek.co/"
         },
         {
           "title": "Landing Page 1: LP",
           "category": "",
           "image": "lp1.png",
-          "url": "https://lp-landing-page.on.fleek.co/"
+          "url": "https://www.lp-landing-page.on.fleek.co/"
         },
         {
           "title": "Landing Page 2: DeFi + Moralis Metamask Auth",
           "category": "",
           "image": "defi.png",
-          "url": "https://react-defi-app.netlify.app/"
+          "url": "https://www.react-defi-app.netlify.app/"
         },
         {
           "title": "Weather App",
           "category": "",
           "image": "weather.png",
-          "url": "https://react-weather-app.on.fleek.co/"
+          "url": "https://www.react-weather-app.on.fleek.co/"
         },
         {
           "title": "Powerlist: To-Do App",
           "category": "",
           "image": "powerlist.PNG",
-          "url": "https://react-powerlist.on.fleek.co/"
+          "url": "https://www.react-powerlist.on.fleek.co/"
         }
       ]
     }

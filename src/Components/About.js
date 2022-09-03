@@ -50,7 +50,7 @@ const About = ({ data }) => {
             <div className="columns download">
               <p>
                 <a href="" className="button download">
-                  <i className="fa fa-download"></i>Download Resumeeeee
+                  <i className="fa fa-download"></i>Download Resume
                 </a>
               </p>
             </div>
