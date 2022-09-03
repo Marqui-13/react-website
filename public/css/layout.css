@@ -95,6 +95,10 @@ header .social li {
    padding: 20px;
 }
 
+footer .social li {
+   padding: 70px;
+}
+
 .responsive-headline {
    font-weight: 900;
 }
@@ -854,7 +858,7 @@ call-to-action .button {
    width: 65%;
    margin-left: 26%;
 }
-#message-warning { color: #D72828; }
+#message-warning { color: #dd2121; }
 #message-success { color: #11ABB0; }
 
 #message-warning i,
@@ -918,7 +922,7 @@ footer .social-links {
 footer .social-links li {
     display: inline-block;
     margin: 0;
-    padding: 0;
+    padding: 20px;
     margin-left: 42px;
     color: #0F9095;
 }

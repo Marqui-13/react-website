@@ -1,4 +1,4 @@
-import { useEffect, useRef } from "react";
+// import { useEffect, useRef } from "react";
 import React from "react";
 import TypeWriter from "react-typewriter";
 import videoBg from "../assets/videoBg.mp4";

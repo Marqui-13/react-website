@@ -1,18 +1,11 @@
 import React from "react";
 import profilepic from "../Components/profilepic.jpg";
-
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faDownload } from '@fortawesome/free-solid-svg-icons'
 
 const About = ({ data }) => {
   if (data) {
-    var name = data.name;
-    
     var bio = data.bio;
-    var street = data.address.street;
-    var city = data.address.city;
-    var state = data.address.state;
-    var zip = data.address.zip;
-    var phone = data.phone;
-    var email = data.email;
   }
 
   return (
@@ -30,28 +23,11 @@ const About = ({ data }) => {
 
           <p>{bio}</p>
           <div className="row">
-            <div className="columns contact-details">
-              <h2>Contact Details</h2>
-              <p className="address">
-                <span>{name}</span>
-                <br />
-                <span>
-                  {street}
-                  <br />
-                  {city} {state}, {zip}
-                </span>
-                <br />
-                <span>{phone}</span>
-                <br />
-                <span>{email}</span>
-              </p>
-            </div>
-
             <div className="columns download">
               <p>
-                <a href="" className="button download">
-                  <i className="fa fa-download"></i>Download Resume
-                </a>
+                <button className="button download">
+                <FontAwesomeIcon icon={faDownload} bounce /> Download Resume
+                </button>
               </p>
             </div>
           </div>
