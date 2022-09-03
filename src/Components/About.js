@@ -4,6 +4,7 @@ import React from "react";
 const About = ({ data }) => {
   if (data) {
     var name = data.name;
+    var profilepic = data.image;
     var bio = data.bio;
     var street = data.address.street;
     var city = data.address.city;
@@ -20,7 +21,7 @@ const About = ({ data }) => {
         <div className="three columns">
           <img
             className="profile-pic"
-            src="profilepic.jpg"
+            src={profilepic}
             alt="Marqui's Profile Pic"
           />
         </div>
