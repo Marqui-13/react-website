@@ -31,6 +31,11 @@
           "name": "github",
           "url": "https://github.com/Marqui-13/",
           "className": "fa fa-github"
+        },
+        {
+          "name": "radicle",
+          "url": "https://app.radicle.xyz/",
+          "className": "fas fa-seedling"
         }
       ]
     },
