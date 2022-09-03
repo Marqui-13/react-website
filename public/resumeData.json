@@ -35,7 +35,7 @@
         {
           "name": "radicle",
           "url": "https://app.radicle.xyz/",
-          "className": "fa-solid fa-seedling"
+          "className": "fa fa-seedling"
         }
       ]
     },
