@@ -108,6 +108,19 @@ footer .social li {
 .altweb a { color: #fff; font-weight: 300;}
 .altweb a:hover { color: #11ABB0; }
 
+header .resume-button {
+   margin-top: 29px;
+   padding: 5px;
+   color: white;
+   border: 3px solid white;
+   border-radius: 7px;
+}
+
+header .resume-button:hover {
+   color: #11ABB0;
+   border: 3px solid #11ABB0;
+}
+
 .portfolioHeading { 
    color: black;
 }

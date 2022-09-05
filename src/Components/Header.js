@@ -80,6 +80,15 @@ const Header = ({ data, icon, timeline, ease }) => {
             Checkout my alternate website
           </a>
         </h4>
+
+        <a
+            className="resume-button"
+            href="https://marqui-resume.on.fleek.co/"
+            target="_blank"
+            rel="noreferrer"
+          >
+            Download Resume
+          </a>
       </div>
       <nav id="nav-wrap">
         <a className="mobile-btn" href="#nav-wrap" title="Show navigation">
