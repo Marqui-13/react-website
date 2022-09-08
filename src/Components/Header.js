@@ -105,16 +105,6 @@ const Header = ({ data, icon, timeline, ease }) => {
             </a>
           </li>
           <li>
-            <a className="smoothscroll" href="#about">
-              About
-            </a>
-          </li>
-          <li>
-            <a className="smoothscroll" href="#resume">
-              Resume
-            </a>
-          </li>
-          <li>
             <a className="smoothscroll" href="#portfolio">
               Projects
             </a>
