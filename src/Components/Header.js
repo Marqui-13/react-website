@@ -68,7 +68,7 @@ const Header = ({ data, icon, timeline, ease }) => {
         </h1>
         <h4 className="aboutd">
           I'm a developer and a student focusing on Web3, Blockchain, Creative Coding, &amp;
-          Responsive Front-End/Back-End Development.
+          Responsive Full-Stack Development.
         </h4>
         <ul className="social">{networks}</ul>
         <h4 className="altweb">
