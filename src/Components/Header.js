@@ -66,9 +66,9 @@ const Header = ({ data, icon, timeline, ease }) => {
         <h1 style={{ color: "#fff" }}>
           <TypeWriter typing={0.37}>{name ? `I'm ${name}.` : null}</TypeWriter>
         </h1>
-        <h4 className="aboutd">
+        <h5 className="aboutd">
           I'm a developer and a student focusing on Web3, Blockchain, Quantum, Creative Coding, Responsive Full-Stack, & Game Development.
-        </h4>
+        </h5>
         <ul className="social">{networks}</ul>
         <h4 className="altweb">
           <a
