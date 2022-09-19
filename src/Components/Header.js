@@ -67,7 +67,7 @@ const Header = ({ data, icon, timeline, ease }) => {
           <TypeWriter typing={0.37}>{name ? `I'm ${name}.` : null}</TypeWriter>
         </h1>
         <h4 className="aboutd">
-          I'm a developer and a student focusing on Web3, Blockchain, Creative Coding, &amp;
+          I'm a developer and a student focusing on Web3, Blockchain, Quantum, Creative Coding, &amp;
           Responsive Full-Stack Development.
         </h4>
         <ul className="social">{networks}</ul>
