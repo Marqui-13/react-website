@@ -31,22 +31,22 @@ const Header = ({ data, icon, timeline, ease }) => {
     var networks = data.social.map(function (network) {
       return (
         <>
-        <li>
+        <li className="hidden">
           <a href="https://www.linkedin.com/in/marqui-orr-793115219/">
             <FontAwesomeIcon icon={faLinkedin} />
           </a>
         </li>
-        <li>
+        <li className="hidden">
           <a href="https://github.com/Marqui-13/">
             <FontAwesomeIcon icon={faGithub} />
           </a>
         </li>
-        <li>
+        <li className="hidden">
           <a href="https://app.radicle.xyz/">
             <FontAwesomeIcon icon={faSeedling} />
           </a>
         </li>
-        <li>
+        <li className="hidden">
           <a href="https://codepen.io/marqui-13/">
             <FontAwesomeIcon icon={faCodepen} />
           </a>
