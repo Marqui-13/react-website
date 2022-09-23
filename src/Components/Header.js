@@ -6,25 +6,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faSeedling } from '@fortawesome/free-solid-svg-icons'
 import { faLinkedin, faGithub, faCodepen } from '@fortawesome/free-brands-svg-icons'
 
-//import {TweenMax, Power3} from "gsap"
- //import gsap from "gsap"
-
 const Header = ({ data, icon, timeline, ease }) => {
-  // let socialRef1 = useRef(null);
-  // let socialRef2 = useRef(null);
-  // let socialRef3 = useRef(null);
-
-
-  // useEffect(() => {
-  //   timeline.from([socialRef1, socialRef2, socialRef3], 2, {
-  //     opacity: 0,
-  //     y: 400,
-  //     stagger: {
-  //       amount: 0.4
-  //     },
-  //     ease: ease
-  //   });
-  // });
 
   if (data) {
     var name = data.name;
