@@ -18,11 +18,6 @@ const Canvas = () => {
             canvasEl.height = window.innerHeight / 2;
         });
          
-        window.onresize = function() {
-            canvasEl.width = window.innerWidth / 2;
-            canvasEl.height = window.innerHeight / 2;
-            ctx.font = 5;
-        }
         
         //handle mouse
         const mouse = {
@@ -39,18 +34,6 @@ const Canvas = () => {
             //console.log(mouse.x, mouse.y);
         })
 
-        // function resize_canvas(){
-        //     canvas = document.getElementById("canvas");
-        //     if (canvas.width  < window.innerWidth)
-        //     {
-        //         canvas.width  = window.innerWidth;
-        //     }
-
-        //     if (canvas.height < window.innerHeight)
-        //     {
-        //         canvas.height = window.innerHeight;
-        //     }
-        // }
         
         ctx.fillStyle = 'white';
         ctx.font = '24px Trattatello '
@@ -100,11 +83,6 @@ const Canvas = () => {
                 }
             }
         }
-
-          window.addEventListener('resize', function(event) {
-            canvasEl.width = window.innerWidth;
-            canvasEl.height = window.innerHeight;
-        })
         
         function init() {
             particleArray = [];
@@ -116,9 +94,6 @@ const Canvas = () => {
                         particleArray.push(new Particle(positionX * 15, positionY * 15));
                     }
                 }
-                // let x = Math.random() * canvas.width - 100;
-                // let y = Math.random() * canvas.height;
-                // particleArray.push(new Particle(x, y));
             }
         }
         init();
@@ -139,8 +114,6 @@ const Canvas = () => {
             let opacityValue = 1;
             for (let a = 0; a < particleArray.length; a++) {
                 for (let b = a; b < particleArray.length; b++) {
-                    //let dx = mouse.x - this.x;
-                    //let dy = mouse.y - this.y;
                     let dx = particleArray[a].x - particleArray[b].x;
                     let dy = particleArray[a].y - particleArray[b].y;
                     let distance = Math.sqrt(dx * dx + dy * dy);
