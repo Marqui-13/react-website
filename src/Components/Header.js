@@ -3,7 +3,7 @@ import { gsap } from "gsap";
 import Canvas from "./Canvas.js";
 
 <<<<<<< HEAD
-const Header = ({}) => {
+const Header = () => {
   const boxRef = useRef();
 
   useEffect(() => {
