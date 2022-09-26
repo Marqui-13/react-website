@@ -18,6 +18,11 @@ const Canvas = () => {
             canvasEl.height = window.innerHeight / 2;
         });
          
+        window.onresize = function() {
+            canvasEl.width = window.innerWidth / 2;
+            canvasEl.height = window.innerHeight / 2;
+            ctx.font = 5;
+        }
         
         //handle mouse
         const mouse = {
@@ -33,20 +38,17 @@ const Canvas = () => {
             mouse.y = event.y;
             //console.log(mouse.x, mouse.y);
         })
-
         
         ctx.fillStyle = 'white';
         ctx.font = '24px Trattatello '
         ctx.fillText("M", 0, 30);
-        // ctx.strokeStyle = 'white';
-        // ctx.strokeRect(0, 0, 100, 100);
         const textCoordinates = ctx.getImageData(0, 0, 100, 100);
         
         class Particle {
             constructor(x, y) {
                 this.x = x + 100;
                 this.y = y;
-                this.size = 1;
+                this.size = 2;
                 this.baseX = this.x;
                 this.baseY = this.y;
                 this.density = (Math.random() * 40) + 5;
@@ -83,6 +85,11 @@ const Canvas = () => {
                 }
             }
         }
+
+          window.addEventListener('resize', function(event) {
+            canvasEl.width = window.innerWidth;
+            canvasEl.height = window.innerHeight;
+        })
         
         function init() {
             particleArray = [];
