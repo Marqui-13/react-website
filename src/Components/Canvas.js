@@ -28,7 +28,7 @@ const Canvas = () => {
         const mouse = {
             x: null,
             y: null,
-            radius: 250
+            radius: 150
         }
 
 
@@ -53,8 +53,8 @@ const Canvas = () => {
         // }
         
         ctx.fillStyle = 'white';
-        ctx.font = '20px Trattatello '
-        ctx.fillText("M", -.7, 30);
+        ctx.font = '24px Trattatello '
+        ctx.fillText("M", 0, 30);
         // ctx.strokeStyle = 'white';
         // ctx.strokeRect(0, 0, 100, 100);
         const textCoordinates = ctx.getImageData(0, 0, 100, 100);
@@ -111,7 +111,7 @@ const Canvas = () => {
             for (let y = 0, y2 = textCoordinates.height; y < y2; y++) {
                 for (let x = 0, x2 = textCoordinates.width; x < x2; x++) {
                     if (textCoordinates.data[(y * 4 * textCoordinates.width) + (x * 4) + 3] > 1) {
-                        let positionX = x;
+                        let positionX = x - 5;
                         let positionY = y + adjustY;
                         particleArray.push(new Particle(positionX * 15, positionY * 15));
                     }
