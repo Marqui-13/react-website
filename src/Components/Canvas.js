@@ -58,6 +58,9 @@ window.addEventListener("touchend", event => {
 }, false);
 // END JAVASCRIPT TOUCH EVENTS
         
+        canvasEl.syle.position = 'absolute'
+        canvasEl.style.overflowX = 'hidden'
+        canvasEl.style.overflowY = 'hidden'
         ctx.fillStyle = 'white';
         ctx.font = '24px Trattatello '
         ctx.fillText("M", 0, 30);
